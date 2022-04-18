@@ -13,14 +13,7 @@ const Alert = (props) => {
 		</div>
 	);
 };
-/*
-Jumbotron.propTypes = {
-	//proptypes here
-	title: PropTypes.string,
-	description: PropTypes.string,
-	buttonLabel: PropTypes.string,
-	buttonURL: PropTypes.string,
-};*/
+
 Alert.propTypes = {
 	text: PropTypes.string,
 };
